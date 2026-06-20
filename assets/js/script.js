@@ -184,14 +184,6 @@ window.addEventListener("scroll",reveal);
 
 window.addEventListener("load",reveal);
 
-/* Bill generator */
-
-function startBillDownload() {
-    const billNumber = document.getElementById("billNo").value;
-    const phoneNumber = document.getElementById("phoneNo").value;
-    downloadBill(billNumber, phoneNumber);
-}
-
 /* Counter Animation */
 
 const counters=document.querySelectorAll(".stat-card h2");
