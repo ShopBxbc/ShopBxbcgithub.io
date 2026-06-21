@@ -363,3 +363,14 @@ animation:fadeUp .8s ease;
   transform: translateY(0) !important;
   visibility: visible !important;
 }
+
+/* STAT CARD FIX - FORCE VISIBLE */
+.stat-card {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.stat-card.active {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
