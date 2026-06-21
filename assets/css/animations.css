@@ -377,3 +377,10 @@ body{
 animation:fadeUp .8s ease;
 
 }
+/* TEMPORARY FIX - FORCE VISIBLE */
+.contact-card,
+.map-card {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  visibility: visible !important;
+}
